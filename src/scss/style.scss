@@ -1,0 +1,71 @@
+@use 'custom';
+body{
+    background-color: #f9f9fb;
+    font-family: 'Poppins', sans-serif;
+}
+.icon_musculo{
+    width:40px;
+    height: 40px;
+}
+.image_card{
+    background:url(../../imagenes/galeria5.jpg);
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-radius: 20px;
+    max-width: 680px;
+    height: 450px;
+    overflow: hidden;   
+}
+.card_details{
+    border-radius: 16px;
+}
+.icon_true{
+    width: 5%;
+    height: 5%;
+    background-color: #bcff5e;
+    margin-right: 2%;
+}
+.image_card_strong{
+    background:url(../../imagenes/galeria4.jpg);
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-radius: 20px;
+    max-width: 680px;
+    height: 450px;
+    overflow: hidden;   
+}
+.btn_card{
+    font-weight: 600;
+    border-radius: 15px;
+}
+.text_card_plan{
+    font-weight: 600;
+    color: hsl(219deg, 9%, 45%);
+}
+.dolar{
+    font-weight: 500;
+}
+.btn_card_plan{
+    border-radius: 14px;
+}
+.gym{
+    font-weight: 600;
+}
+.text_footer{
+    font-size: 14px;
+    font-weight: 100;
+}
+.btn-input{
+    font-weight: 600;
+    font-size: 15px;
+    border-radius: 14px;
+}
+.icon_telefono{
+    width:25px;
+    height: 25px;
+}
+.image_mision{
+    width: 60%;
+}
