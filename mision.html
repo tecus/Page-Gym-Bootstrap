@@ -27,22 +27,16 @@
 
     <nav class="navbar sticky-top navbar-expand-lg bg-body-tertiary sticky-top fs-4 bg-success">
         <div class="container-fluid">
-            <img class="icon_musculo" src="/iconos/corazon.png">
+            <a href="index.html"><img class="icon_musculo" src="/iconos/corazon.png"></a>
                  <!-- <a class="navbar-brand fs-4 pt-2 ms-1 fw-bold" href="index.html">Gym<span>King</span></a> -->
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navegacion">
             <span class="navbar-toggler-icon"></span>
             </button>
         <div class="collapse navbar-collapse" id="navegacion">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item"><a class="nav-link active" aria-current="page" href="¿Quienes Somos?">¿Quienes Somos?</a></li>
-              <li class="nav-item dropdown"><a class="nav-link dropdown-toggle show" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="true">Servicios</a>
-                <ul class="dropdown-menu" data-bs-popper="static">
-                    <li><a class="dropdown-item" href="#">Empresa</a></li>
-                    <li><a class="dropdown-item" href="#">Historia</a></li>
-                </ul>
-            </li>
+                <li class="nav-item"><a class="nav-link active ms-3" aria-current="page" href="index.html">Inicio</a></li>
                 <li class="nav-item">
-                <a class="nav-link" href="#">Contacto</a>
+                <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#BtnModal">Contacto</a>
             </li>
             </ul>
             <form class="d-flex" role="search">
@@ -53,6 +47,41 @@
         </div>
     </nav>
 
+    <div class="modal fade" id="BtnModal" tabindex="-1" aria-labelledby="BtnModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="BtnModalLabel">Registrate</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <form>
+                <div class="mb-3">
+                  <label for="recipient-name" class="col-form-label">Nombre</label>
+                  <input type="text" class="form-control" id="recipient-name">
+                </div>
+                <div class="mb-3">
+                    <label for="recipient-name" class="col-form-label">Direccion</label>
+                    <input type="text" class="form-control" id="recipient-name">
+                  </div>
+                  <div class="mb-3">
+                    <label for="recipient-name" class="col-form-label">Telefono</label>
+                    <input type="text" class="form-control" id="recipient-name">
+                  </div>
+                <div class="mb-3">
+                  <label for="message-text" class="col-form-label">Mensaje</label>
+                  <textarea class="form-control" id="message-text"></textarea>
+                </div>
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-success">Enviar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
     <section class="container py-5">
                 <div class="d-flex justify-content-center">
                     <img class="img-fluid mb-5 image_mision" src="imagenes/galeria6.jpg" alt="Image Gym">
@@ -60,30 +89,11 @@
                 <h5 class="text-center fs-2 pb-2">Mision</h5>
                 <p class="pb-2">En GymKing creemos que el ejercicio y el bienestar deberían estar disponibles para todos. Al dirigir un negocio internacional de Fitness, con la ambición de desarrollar y expandirnos constantemente, por lo tanto, ofrecemos gimnasios que siempre están abiertos e invita a las personas a hacer ejercicio.</p>
                 <h5 class="text-center fs-2 pb-2">Vision</h5>
-                <p>Nuestra misión es proporcionar la mejor opción de valor en la industria del fitness en Europa, Asia, América Central y América del Sur. Haremos esto a través de la disponibilidad, la hospitalidad y la funcionalidad a un precio atractivo.</p>
             <p>Nuestra misión es proporcionar la mejor opción de valor en la industria del fitness en Europa, Asia, América Central y América del Sur. Haremos esto a través de la disponibilidad, la hospitalidad y la funcionalidad a un precio atractivo.
-                Estamos orgullosos de ofrecer oportunidades de entrenamiento en 6 países diferentes en 3 continentes. Esta disponibilidad no solo significa que operamos nuestro negocio en varios países y que estamos abiertos a toda hora, para nosotros también es importante que todo esté incluido para nuestros miembros. Esto significa que nuestros miembros pueden entrenar en cualquiera de nuestros gimnasios, sin costo adicional y sin restricciones cuando se trata de nuestros entrenamientos grupales.
-                La hospitalidad se trata de actuar amablemente y dar la bienvenida a nuestros miembros y lo hacemos enfocándonos en nuestros miembros. Para nosotros, es importante que nuestros miembros sientan que nuestros empleados los ven, escuchan y aprecian. Es junto con nuestros miembros que creamos el mejor ambiente de entrenamiento y siempre queremos que nuestros miembros tengan impresiones positivas en el gimnasio. Como continuación de esta hospitalidad, entre otras cosas, la actitud amistosa, siempre nos esforzamos para que nuestros gimnasios sean funcionales. Con esto queremos decir que las máquinas, pesas, vestuarios, etc. deberían funcionar sin ningún problema. Debería ser fácil, sencillo y divertido hacer ejercicio en GymKing y esto es algo con lo que trabajamos a diario para mantener.
-                Un precio atractivo es algo de lo que estamos orgullosos de ofrecer, y siempre ha sido importante para nosotros demostrar que hacer ejercicio debe ser algo para todos y, por lo tanto, nuestra elección de precio. Nuestros miembros deben sentir que ofrecemos mucho, incluidos los entrenamientos grupales y que estamos abiertos a todas horas, y que estamos disponibles en muchos lugares, pero también que tiene un precio atractivo. Al ofrecer lo que mencionamos anteriormente, tenemos gimnasios competitivos que son mejorados por nuestros empleados calificados, quienes juntos crean relaciones con nuestros miembros. Son los empleados que trabajan en nuestros gimnasios los que contribuyen a un estilo de vida saludable y, sobre todo, contribuyen a un entorno de entrenamiento divertido y social.</p>
+                Estamos orgullosos de ofrecer oportunidades de entrenamiento en 2 países diferentes y en 2 continentes. Esta disponibilidad no solo significa que operamos nuestro negocio en varios países y que estamos abiertos a toda hora, para nosotros también es importante que todo esté incluido para nuestros miembros. Esto significa que nuestros miembros pueden entrenar en cualquiera de nuestros gimnasios, sin costo adicional y sin restricciones cuando se trata de nuestros entrenamientos grupales.
+                La hospitalidad se trata de actuar amablemente y dar la bienvenida a nuestros miembros y lo hacemos enfocándonos en nuestros miembros.</p>
         </div>
     </section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     <footer class="footer  mt-5 pt-4 pb-2 text-white bg-primary">
         <div class="container">
@@ -100,15 +110,15 @@
 
                 <div class="col-md-2">
                     <nav class="nav flex-column align-items-center">
-                        <a class="nav-link add text-white" href="#">Inicio</a>
-                        <a class="nav-link add text-white" href="#">Programa</a>
+                        <a class="nav-link add text-white" href="index.html">Inicio</a>
+                        <a class="nav-link add text-white" href="index.html">Programa</a>
                     </nav>
                 </div>
 
                 <div class="col-md-2">
                     <nav class="nav flex-column align-items-center">
-                        <a class="nav-link add text-white" href="#">Membresia</a>
-                        <a class="nav-link add text-white" href="#">Acerca</a>
+                        <a class="nav-link add text-white" href="index.html">Membresia</a>
+                        <a class="nav-link add text-white" href="mision.html">Acerca</a>
                     </nav>
                 </div>
                 <div class="col-md-4 mb-4 mb-sm-4">
